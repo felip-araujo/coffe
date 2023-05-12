@@ -1,0 +1,82 @@
+@font-face{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; 
+  src: url('url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),')
+       url(' url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');')
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  text-align: center;
+  margin-top: 100px;
+  padding: 150px;
+  font-family: 'Raleway', sans-serif;
+  background-image:linear-gradient(to bottom, black, rgb(147, 147, 147))
+} 
+
+h1{
+  margin-top: -10px;
+  font-size: 45px;
+  color: white;
+} 
+
+li {
+  padding: 4px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 5px ; 
+  text-decoration: none;
+  list-style: none; 
+  margin-right: 180px;  
+  display: flex;
+} 
+ 
+button {
+  padding: 15px;
+  border-radius:10px;
+  border: none;
+  font: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: 19px;
+  background-color: rgb(255, 68, 0);
+  margin-top: 15px; 
+}
+button:hover {
+  padding: 15px;
+  border-radius:10px;
+  border: none;
+  font: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  font-size: 19px;
+  background-color: rgb(5, 255, 5); 
+  animation: 2.5s, ease;
+  margin-top: 15px; 
+}
+
+p {
+  color: white; 
+  margin-top: -22px; 
+  padding: 0;
+  font-weight: bolder;
+  background-color: rgba(1, 31, 50, 0.775);
+  border-radius: 8px;
+
+}
+div{
+  background-image: linear-gradient(to left, white, gray);
+  padding: 45px;
+  margin-top:-15px ;
+  padding-left: -10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 13px;
+}
+.print-button{
+  background-color: black;
+}
